@@ -1,0 +1,26 @@
+{
+  "id": "no.runely.randomdinner",
+  "version": "1.0.0",
+  "compatibility": ">=3.0.0",
+  "sdk": 2,
+  "name": {
+    "en": "Random dinner",
+    "no": "Tilfeldig middag"
+  },
+  "description": {
+    "en": "Get todays random dinner",
+    "no": "Få dagens tilfeldige middag"
+  },
+  "category": [
+    "tools"
+  ],
+  "permissions": [],
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "author": {
+    "name": "Rune Moskvil Lyngås",
+    "email": "runely85@gmail.com"
+  }
+}
