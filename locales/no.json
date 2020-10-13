@@ -1,5 +1,9 @@
 {
     "flowTokens": {
         "random_dinner": "Tilfeldig middag"
+    },
+    "dinner": {
+        "dinner_split": "med",
+        "dinner_cooking_split": "ved siden av"
     }
 }

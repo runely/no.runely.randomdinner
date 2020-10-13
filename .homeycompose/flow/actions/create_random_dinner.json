@@ -3,5 +3,70 @@
   "title": {
     "en": "Create random dinner",
     "no": "Lag tilfeldig middag"
-  }
+  },
+  "hint": {
+    "en": "Create a random dinner",
+    "no": "Lag en tilfeldig middag"
+  },
+  "args": [
+    {
+      "type": "range",
+      "name": "ingredient_count",
+      "min": 2,
+      "max": 20,
+      "step": 1,
+      "title": {
+        "en": " ingredients",
+        "no": " ingredienser"
+      }
+    },
+    {
+      "type": "dropdown",
+      "name": "allow_toilet_words",
+      "title": {
+        "en": "Allow toilet words?",
+        "no": "Tillat doprat?"
+      },
+      "values": [
+        {
+          "id": "false",
+          "label": {
+            "en": "False",
+            "no": "False"
+          }
+        },
+        {
+          "id": "true",
+          "label": {
+            "en": "True",
+            "no": "True"
+          }
+        }
+      ]
+    },
+    {
+      "type": "dropdown",
+      "name": "allow_ingredient_multiple_times",
+      "title": {
+        "en": "Allow ingredients multiple times?",
+        "no": "Tillat ingredienser flere ganger?"
+      },
+      "values": [
+        {
+          "id": "true",
+          "label": {
+            "en": "True",
+            "no": "True"
+          }
+        },
+        {
+          "id": "false",
+          "label": {
+            "en": "False",
+            "no": "False"
+          }
+        }
+      ]
+    }
+  ]
 }

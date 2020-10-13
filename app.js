@@ -22,7 +22,11 @@ class MyApp extends Homey.App {
 		new Homey.FlowCardAction('create_random_dinner')
     .register()
     .registerRunListener(async (args, state) => {
-      tokens[0].setValue(createRandomDinner());
+      let ingredientCount = args.ingredient_count;
+      let allowToiletWords = (args.allow_toilet_words === 'true' ? true : false);
+      let allowIngredientMultipleTimes = (args.allow_ingredient_multiple_times === 'true' ? true : false);
+
+      tokens[0].setValue(createRandomDinner(ingredientCount, allowToiletWords, allowIngredientMultipleTimes));
 
       return Promise.resolve(true);
     });

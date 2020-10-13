@@ -1,5 +1,9 @@
 {
     "flowTokens": {
         "random_dinner": "Random dinner"
+    },
+    "dinner": {
+        "dinner_split": "with",
+        "dinner_cooking_split": "next to"
     }
 }
