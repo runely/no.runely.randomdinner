@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "main": "app.js",
   "devDependencies": {
-    "homey": "2.8.0"
+    "homey": "2.8.0",
+    "xo": "0.36.1"
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "xo": {
+    "space": 2,
+    "semicolon": true
   }
 }
