@@ -2,7 +2,7 @@
 
 const Homey = require('homey');
 
-const createRandomDinner = require('./lib/createRandomDinner');
+const createRandomDinner = require('./lib/create-random-dinner');
 
 let tokens = [];
 
