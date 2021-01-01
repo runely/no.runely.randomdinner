@@ -8,6 +8,7 @@
   },
   "scripts": {
     "test": "xo",
+    "fix": "xo && xo --fix",
     "install": "xo && xo --fix && homey app install"
   },
   "xo": {
