@@ -8,8 +8,8 @@
   },
   "scripts": {
     "test": "xo",
-    "fix": "xo && xo --fix",
-    "install": "xo && xo --fix && homey app install"
+    "fix": "xo --fix",
+    "install": "xo --fix && homey app install"
   },
   "xo": {
     "space": 2,
