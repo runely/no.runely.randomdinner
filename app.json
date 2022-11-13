@@ -2,8 +2,11 @@
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "no.runely.randomdinner",
   "version": "1.0.0",
-  "compatibility": ">=3.0.0",
-  "sdk": 2,
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "platforms": [
+    "local"
+  ],
   "name": {
     "en": "Random dinner",
     "no": "Tilfeldig middag"
@@ -50,9 +53,153 @@
           },
           {
             "type": "dropdown",
+            "name": "include_predefined_food",
+            "title": {
+              "en": "Include predefined food?",
+              "no": "Inkluder forhåndsdefinert mat?"
+            },
+            "values": [
+              {
+                "id": "true",
+                "label": {
+                  "en": "True",
+                  "no": "True"
+                }
+              },
+              {
+                "id": "false",
+                "label": {
+                  "en": "False",
+                  "no": "False"
+                }
+              }
+            ]
+          },
+          {
+            "type": "dropdown",
+            "name": "include_predefined_nonsense",
+            "title": {
+              "en": "Include predefined nonsense?",
+              "no": "Inkluder forhåndsdefinert tullball?"
+            },
+            "values": [
+              {
+                "id": "true",
+                "label": {
+                  "en": "True",
+                  "no": "True"
+                }
+              },
+              {
+                "id": "false",
+                "label": {
+                  "en": "False",
+                  "no": "False"
+                }
+              }
+            ]
+          },
+          {
+            "type": "dropdown",
+            "name": "include_predefined_toilet_words",
+            "title": {
+              "en": "Include predefined toilet words?",
+              "no": "Inkluder forhåndsdefinerte toalettord?"
+            },
+            "values": [
+              {
+                "id": "true",
+                "label": {
+                  "en": "True",
+                  "no": "True"
+                }
+              },
+              {
+                "id": "false",
+                "label": {
+                  "en": "False",
+                  "no": "False"
+                }
+              }
+            ]
+          },
+          {
+            "type": "dropdown",
+            "name": "include_own_food",
+            "title": {
+              "en": "Include own food?",
+              "no": "Inkluder egendefinert mat?"
+            },
+            "values": [
+              {
+                "id": "true",
+                "label": {
+                  "en": "True",
+                  "no": "True"
+                }
+              },
+              {
+                "id": "false",
+                "label": {
+                  "en": "False",
+                  "no": "False"
+                }
+              }
+            ]
+          },
+          {
+            "type": "dropdown",
+            "name": "include_own_nonsense",
+            "title": {
+              "en": "Include own nonsense?",
+              "no": "Inkluder egendefinert tullball?"
+            },
+            "values": [
+              {
+                "id": "true",
+                "label": {
+                  "en": "True",
+                  "no": "True"
+                }
+              },
+              {
+                "id": "false",
+                "label": {
+                  "en": "False",
+                  "no": "False"
+                }
+              }
+            ]
+          },
+          {
+            "type": "dropdown",
+            "name": "include_own_toilet_words",
+            "title": {
+              "en": "Include own toilet words?",
+              "no": "Inkluder egendefinerte toalettord?"
+            },
+            "values": [
+              {
+                "id": "true",
+                "label": {
+                  "en": "True",
+                  "no": "True"
+                }
+              },
+              {
+                "id": "false",
+                "label": {
+                  "en": "False",
+                  "no": "False"
+                }
+              }
+            ]
+          },
+          {
+            "type": "dropdown",
             "name": "allow_toilet_words",
             "title": {
-              "en": "Allow toilet words?",
+              "en": "Alow toilet words?",
               "no": "Tillat doprat?"
             },
             "values": [

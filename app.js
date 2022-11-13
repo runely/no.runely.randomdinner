@@ -14,20 +14,17 @@ class MyApp extends Homey.App {
     this.log(Homey.manifest.name.en + ' v' + Homey.manifest.version + ' is running...')
 
     // Flow tokens
-    new Homey.FlowToken('random_dinner', { type: 'string', title: Homey.__('flowTokens.random_dinner') })
-      .register()
-      .then(token => tokens.push(token))
+    tokens.push(await this.homey.flow.createToken('random_dinner', { type: 'string', title: this.homey.__('flowTokens.random_dinner') }))
 
     // Actions
-    new Homey.FlowCardAction('create_random_dinner')
-      .register()
+    this.homey.flow.getActionCard('create_random_dinner')
       .registerRunListener(async (args, state) => {
         const ingredientCount = args.ingredient_count
         const allowToiletWords = (args.allow_toilet_words === 'true')
         const allowIngredientMultipleTimes = (args.allow_ingredient_multiple_times === 'true')
 
         if (Array.isArray(tokens) && tokens.length === 1) {
-          tokens[0].setValue(createRandomDinner(ingredientCount, allowToiletWords, allowIngredientMultipleTimes))
+          await tokens[0].setValue(dinner)
         }
 
         return true

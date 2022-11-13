@@ -1,8 +1,11 @@
 {
   "id": "no.runely.randomdinner",
   "version": "1.0.0",
-  "compatibility": ">=3.0.0",
-  "sdk": 2,
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "platforms": [
+    "local"
+  ],
   "name": {
     "en": "Random dinner",
     "no": "Tilfeldig middag"
