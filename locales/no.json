@@ -1,4 +1,14 @@
 {
+    "settings": {
+        "title": "Tilfeldig middag",
+        "save": "Lagre",
+        "saved_alert": "Lagret",
+        "own": {
+            "food": "Egendefinert mat",
+            "nonsense": "Egendefinert tullball",
+            "toiletwords": "Egendefinerte toalettord"
+        }
+    },
     "flowTokens": {
         "random_dinner": "Tilfeldig middag"
     },

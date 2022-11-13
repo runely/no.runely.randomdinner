@@ -1,4 +1,14 @@
 {
+    "settings": {
+        "title": "Random dinner",
+        "save": "Save",
+        "saved_alert": "Saved",
+        "own": {
+            "food": "Custom food",
+            "nonsense": "Custom nonsense",
+            "toiletwords": "Custom toilet words"
+        }
+    },
     "flowTokens": {
         "random_dinner": "Random dinner"
     },

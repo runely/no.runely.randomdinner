@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+
+        <!-- Homey settings -->
+        <script type="text/javascript" src="/homey.js" data-origin="settings"></script>
+      </head>
+      
+      <body>
+
+        <h1 data-i18n="settings.title">
+            <!--
+                This field will automatically be filled by a translated string with key 'settings.title'.
+                Read more about translations at Internationalization.
+        	-->
+        </h1>
+
+        <p>
+            <fieldset>
+                <legend data-i18n="settings.own.food"></legend>
+
+                <textarea cols="30" rows="10" id="ownFood"></textarea>
+            </fieldset>
+        </p>
+
+        <p>
+            <fieldset>
+                <legend data-i18n="settings.own.nonsense"></legend>
+
+                <textarea cols="30" rows="10" id="ownNonsense"></textarea>
+            </fieldset>
+        </p>
+
+        <p>
+            <fieldset>
+                <legend data-i18n="settings.own.toiletwords"></legend>
+
+                <textarea cols="30" rows="10" id="ownToiletWords"></textarea>
+            </fieldset>
+        </p>
+
+        <button id="save" class="right" data-i18n="settings.save"></button>
+        
+        <script src="randomdinner.js" type="text/javascript"></script>
+
+      </body>
+</html>
