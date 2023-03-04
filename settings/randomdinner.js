@@ -40,15 +40,15 @@ function onHomeyReady (Homey) {
 }
 
 function getOwnFood (own) {
-  document.getElementById('ownFood').value = own.join('\n')
+  if (own) document.getElementById('ownFood').value = own.join('\n')
 }
 
 function getOwnNonsense (own) {
-  document.getElementById('ownNonsense').value = own.join('\n')
+  if (own) document.getElementById('ownNonsense').value = own.join('\n')
 }
 
 function getOwnToiletWords (own) {
-  document.getElementById('ownToiletWords').value = own.join('\n')
+  if (own) document.getElementById('ownToiletWords').value = own.join('\n')
 }
 
 function saveOwnFood () {
