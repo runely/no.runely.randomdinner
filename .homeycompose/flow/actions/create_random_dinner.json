@@ -15,202 +15,83 @@
       "min": 2,
       "max": 20,
       "step": 1,
+      "value": 8,
       "title": {
         "en": " ingredients",
         "no": " ingredienser"
       }
     },
     {
-      "type": "dropdown",
+      "type": "checkbox",
       "name": "include_predefined_food",
+      "value": true,
       "title": {
         "en": "Include predefined food?",
         "no": "Inkluder forhåndsdefinert mat?"
-      },
-      "values": [
-        {
-          "id": "true",
-          "label": {
-            "en": "True",
-            "no": "True"
-          }
-        },
-        {
-          "id": "false",
-          "label": {
-            "en": "False",
-            "no": "False"
-          }
-        }
-      ]
+      }
     },
     {
-      "type": "dropdown",
+      "type": "checkbox",
       "name": "include_predefined_nonsense",
+      "value": true,
       "title": {
         "en": "Include predefined nonsense?",
         "no": "Inkluder forhåndsdefinert tullball?"
-      },
-      "values": [
-        {
-          "id": "true",
-          "label": {
-            "en": "True",
-            "no": "True"
-          }
-        },
-        {
-          "id": "false",
-          "label": {
-            "en": "False",
-            "no": "False"
-          }
-        }
-      ]
+      }
     },
     {
-      "type": "dropdown",
+      "type": "checkbox",
       "name": "include_predefined_toilet_words",
+      "value": true,
       "title": {
         "en": "Include predefined toilet words?",
         "no": "Inkluder forhåndsdefinerte toalettord?"
-      },
-      "values": [
-        {
-          "id": "true",
-          "label": {
-            "en": "True",
-            "no": "True"
-          }
-        },
-        {
-          "id": "false",
-          "label": {
-            "en": "False",
-            "no": "False"
-          }
-        }
-      ]
+      }
     },
     {
-      "type": "dropdown",
+      "type": "checkbox",
       "name": "include_own_food",
+      "value": true,
       "title": {
         "en": "Include own food?",
         "no": "Inkluder egendefinert mat?"
-      },
-      "values": [
-        {
-          "id": "true",
-          "label": {
-            "en": "True",
-            "no": "True"
-          }
-        },
-        {
-          "id": "false",
-          "label": {
-            "en": "False",
-            "no": "False"
-          }
-        }
-      ]
+      }
     },
     {
-      "type": "dropdown",
+      "type": "checkbox",
       "name": "include_own_nonsense",
+      "value": true,
       "title": {
         "en": "Include own nonsense?",
         "no": "Inkluder egendefinert tullball?"
-      },
-      "values": [
-        {
-          "id": "true",
-          "label": {
-            "en": "True",
-            "no": "True"
-          }
-        },
-        {
-          "id": "false",
-          "label": {
-            "en": "False",
-            "no": "False"
-          }
-        }
-      ]
+      }
     },
     {
-      "type": "dropdown",
+      "type": "checkbox",
       "name": "include_own_toilet_words",
+      "value": true,
       "title": {
         "en": "Include own toilet words?",
         "no": "Inkluder egendefinerte toalettord?"
-      },
-      "values": [
-        {
-          "id": "true",
-          "label": {
-            "en": "True",
-            "no": "True"
-          }
-        },
-        {
-          "id": "false",
-          "label": {
-            "en": "False",
-            "no": "False"
-          }
-        }
-      ]
+      }
     },
     {
-      "type": "dropdown",
+      "type": "checkbox",
       "name": "allow_toilet_words",
+      "value": true,
       "title": {
         "en": "Alow toilet words?",
         "no": "Tillat doprat?"
-      },
-      "values": [
-        {
-          "id": "false",
-          "label": {
-            "en": "False",
-            "no": "False"
-          }
-        },
-        {
-          "id": "true",
-          "label": {
-            "en": "True",
-            "no": "True"
-          }
-        }
-      ]
+      }
     },
     {
-      "type": "dropdown",
+      "type": "checkbox",
       "name": "allow_ingredient_multiple_times",
+      "value": true,
       "title": {
         "en": "Allow ingredients multiple times?",
         "no": "Tillat ingredienser flere ganger?"
-      },
-      "values": [
-        {
-          "id": "true",
-          "label": {
-            "en": "True",
-            "no": "True"
-          }
-        },
-        {
-          "id": "false",
-          "label": {
-            "en": "False",
-            "no": "False"
-          }
-        }
-      ]
+      }
     }
   ]
 }

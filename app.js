@@ -47,14 +47,15 @@ class MyApp extends Homey.App {
     this.homey.flow.getActionCard('create_random_dinner')
       .registerRunListener(async (args, state) => {
         const ingredientCount = args.ingredient_count
-        const allowToiletWords = (args.allow_toilet_words === 'true')
-        const includePredefinedFood = (args.include_predefined_food === 'true')
-        const includePredefinedNonsense = (args.include_predefined_nonsense === 'true')
-        const includePredefinedToiletWords = (args.include_predefined_toilet_words === 'true' && allowToiletWords)
-        const includeOwnFood = (args.include_own_food === 'true')
-        const includeOwnNonsene = (args.include_own_nonsense === 'true')
-        const includeOwnToiletWords = (args.include_own_toilet_words === 'true' && allowToiletWords)
-        const allowIngredientMultipleTimes = (args.allow_ingredient_multiple_times === 'true')
+        const allowToiletWords = args.allow_toilet_words
+
+        const includePredefinedFood = args.include_predefined_food
+        const includePredefinedNonsense = args.include_predefined_nonsense
+        const includePredefinedToiletWords = args.include_predefined_toilet_words && allowToiletWords
+        const includeOwnFood = args.include_own_food
+        const includeOwnNonsene = args.include_own_nonsense
+        const includeOwnToiletWords = args.include_own_toilet_words && allowToiletWords
+        const allowIngredientMultipleTimes = args.allow_ingredient_multiple_times
 
         const ownFood = includeOwnFood ? lowerAll(removeEmpty(this.homey.settings.get('ownFood'))) : []
         const ownNonsense = includeOwnNonsene ? lowerAll(removeEmpty(this.homey.settings.get('ownNonsense'))) : []
