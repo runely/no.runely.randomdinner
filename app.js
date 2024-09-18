@@ -79,16 +79,16 @@ class MyApp extends Homey.App {
         }
 
         const dinner = createRandomDinner(
-            this.homey,
-            ingredientCount,
-            includePredefinedFood,
-            includePredefinedNonsense,
-            includePredefinedToiletWords,
-            ownFood,
-            ownNonsense,
-            ownToiletWords,
-            allowIngredientMultipleTimes,
-            language)
+          this.homey,
+          ingredientCount,
+          includePredefinedFood,
+          includePredefinedNonsense,
+          includePredefinedToiletWords,
+          ownFood,
+          ownNonsense,
+          ownToiletWords,
+          allowIngredientMultipleTimes,
+          language)
         await tokens[0].setValue(dinner)
 
         this.log(`Created random dinner in '${language}' (used '${usedLanguage}') of ${ingredientCount} ingredients:`, dinner)
