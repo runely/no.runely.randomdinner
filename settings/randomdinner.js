@@ -6,32 +6,61 @@ function onHomeyReady (Homey) {
   // buttons
   const saveElement = document.getElementById('save')
 
-  Homey.get('ownFood', (err, own) => {
+  // vars
+  const predefinedFood = 'predefinedFood'
+  const predefinedNonsense = 'predefinedNonsense'
+  const predefinedToiletWords = 'predefinedToiletWords'
+  const predefinedCookingMethods = 'predefinedCookingMethods'
+  const ownFood = 'ownFood'
+  const ownNonsense = 'ownNonsense'
+  const ownToiletWords = 'ownToiletWords'
+
+  Homey.get(predefinedFood, (err, predefined) => {
     if (err) return Homey.alert(err)
-    getOwnFood(own)
+    doGet(predefined, predefinedFood)
   })
 
-  Homey.get('ownNonsense', (err, own) => {
+  Homey.get(predefinedNonsense, (err, predefined) => {
     if (err) return Homey.alert(err)
-    getOwnNonsense(own)
+    doGet(predefined, predefinedNonsense)
   })
 
-  Homey.get('ownToiletWords', (err, own) => {
+  Homey.get(predefinedToiletWords, (err, predefined) => {
     if (err) return Homey.alert(err)
-    getOwnToiletWords(own)
+    doGet(predefined, predefinedToiletWords)
+  })
+
+  Homey.get(predefinedCookingMethods, (err, predefined) => {
+    if (err) return Homey.alert(err)
+    doGet(predefined, predefinedCookingMethods)
+  })
+  
+  Homey.get(ownFood, (err, own) => {
+    if (err) return Homey.alert(err)
+    doGet(own, ownFood)
+  })
+
+  Homey.get(ownNonsense, (err, own) => {
+    if (err) return Homey.alert(err)
+    doGet(own, ownNonsense)
+  })
+
+  Homey.get(ownToiletWords, (err, own) => {
+    if (err) return Homey.alert(err)
+    doGet(own, ownToiletWords)
   })
 
   // save settings
   saveElement.addEventListener('click', function (e) {
-    Homey.set('ownFood', saveOwnFood(), function (err) {
+    Homey.set(ownFood, doSave(ownFood), function (err) {
       if (err) return Homey.alert(err)
     })
 
-    Homey.set('ownNonsense', saveOwnNonsense(), function (err) {
+    Homey.set(ownNonsense, doSave(ownNonsense), function (err) {
       if (err) return Homey.alert(err)
     })
 
-    Homey.set('ownToiletWords', saveOwnToiletWords(), function (err) {
+    Homey.set(ownToiletWords, doSave(ownToiletWords), function (err) {
       if (err) return Homey.alert(err)
     })
 
@@ -39,26 +68,12 @@ function onHomeyReady (Homey) {
   })
 }
 
-function getOwnFood (own) {
-  if (own) document.getElementById('ownFood').value = own.join('\n')
+function doGet(value, id) {
+  if (value) {
+    document.getElementById(id).value = value.join('\n')
+  }
 }
 
-function getOwnNonsense (own) {
-  if (own) document.getElementById('ownNonsense').value = own.join('\n')
-}
-
-function getOwnToiletWords (own) {
-  if (own) document.getElementById('ownToiletWords').value = own.join('\n')
-}
-
-function saveOwnFood () {
-  return document.getElementById('ownFood').value.split('\n')
-}
-
-function saveOwnNonsense () {
-  return document.getElementById('ownNonsense').value.split('\n')
-}
-
-function saveOwnToiletWords () {
-  return document.getElementById('ownToiletWords').value.split('\n')
+function doSave(id) {
+  return document.getElementById(id).value.split('\n')
 }

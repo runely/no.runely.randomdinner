@@ -7,13 +7,30 @@
   "platforms": [
     "local"
   ],
+  "brandColor": "#FF6F61",
   "name": {
     "en": "Random dinner",
-    "no": "Tilfeldig middag"
+    "no": "Tilfeldig middag",
+    "sv": "Slumpmiddag",
+    "da": "Tilfældig middag",
+    "de": "Zufälliges Abendessen",
+    "es": "Cena aleatoria",
+    "fr": "Dîner aléatoire",
+    "it": "Cena casuale",
+    "nl": "Willekeurig diner",
+    "pl": "Losowa kolacja"
   },
   "description": {
-    "en": "Get todays random dinner",
-    "no": "Få dagens tilfeldige middag"
+    "en": "Give Homey the chance to be funny by creating random nonsense dinners",
+    "no": "Gi Homey muligheten til å være morsom ved å lage tilfeldige tullball middager",
+    "sv": "Ge Homey chansen att vara rolig genom att skapa slumpmässiga nonsensmiddagar",
+    "da": "Giv Homey muligheden for at være sjov ved at lave tilfældige vrøvlemiddage",
+    "de": "Gib Homey die Chance, lustig zu sein, indem du zufällige Unsinn-Abendessen erstellst",
+    "es": "Dale a Homey la oportunidad de ser divertido creando cenas aleatorias de tonterías",
+    "fr": "Donnez à Homey la possibilité d'être drôle en créant des dîners aléatoires de nonsens",
+    "it": "Dai a Homey l'opportunità di essere divertente creando cene casuali di assurdità",
+    "nl": "Geef Homey de kans om grappig te zijn door willekeurige onzin-diners te maken",
+    "pl": "Daj Homey możliwość bycia zabawnym, tworząc losowe nonsensowe kolacje"
   },
   "category": [
     "tools"
@@ -27,17 +44,101 @@
     "name": "Rune Moskvil Lyngås",
     "email": "runely85@gmail.com"
   },
+  "tags": {
+    "en": [
+      "fun",
+      "dinner",
+      "random"
+    ],
+    "no": [
+      "morsom",
+      "middag",
+      "tilfeldig"
+    ],
+    "sv": [
+      "rolig",
+      "middag",
+      "slump"
+    ],
+    "da": [
+      "sjov",
+      "middag",
+      "tilfældig"
+    ],
+    "de": [
+      "Spaß",
+      "Abendessen",
+      "zufällig"
+    ],
+    "es": [
+      "divertido",
+      "cena",
+      "aleatorio"
+    ],
+    "fr": [
+      "amusant",
+      "dîner",
+      "aléatoire"
+    ],
+    "it": [
+      "divertente",
+      "cena",
+      "casuale"
+    ],
+    "nl": [
+      "leuk",
+      "diner",
+      "willekeurig"
+    ],
+    "pl": [
+      "zabawa",
+      "kolacja",
+      "losowy"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/runely/no.runely.randomdinner/issues"
+  },
+  "source": "https://github.com/runely/no.runely.randomdinner",
   "flow": {
     "actions": [
       {
         "id": "create_random_dinner",
         "title": {
           "en": "Create random dinner",
-          "no": "Lag tilfeldig middag"
+          "no": "Lag tilfeldig middag",
+          "sv": "Skapa slumpmiddag",
+          "da": "Opret tilfældig middag",
+          "de": "Zufälliges Abendessen erstellen",
+          "es": "Crear cena aleatoria",
+          "fr": "Créer un dîner aléatoire",
+          "it": "Crea cena casuale",
+          "nl": "Maak willekeurig diner",
+          "pl": "Utwórz losową kolację"
+        },
+        "titleFormatted": {
+          "en": "Create random dinner with [[ingredient_count]] ingredients. Predefined foods: [[include_predefined_food]], Predefined nonsense: [[include_predefined_nonsense]], Predefined toilet words: [[include_predefined_toilet_words]], Custom food: [[include_own_food]], Custom nonsense: [[include_own_nonsense]], Custom toilet words: [[include_own_toilet_words]]. Is toilet words allowed: [[allow_toilet_words]]. Is ingredients allowed multiple times: [[allow_ingredient_multiple_times]]",
+          "no": "Lag en tilfeldig middag med [[ingredient_count]] ingredienser. Forhåndsdefinerte matvarer: [[include_predefined_food]], Forhåndsdefinert tullball: [[include_predefined_nonsense]], Forhåndsdefinerte toalettord: [[include_predefined_toilet_words]], Egendefinert mat: [[include_own_food]], Egendefinert tullball: [[include_own_nonsense]], Egendefinerte toalettord: [[include_own_toilet_words]]. Er toalettord tillatt: [[allow_toilet_words]]. Er ingredienser tillatt flere ganger: [[allow_ingredient_multiple_times]]",
+          "sv": "Skapa en slumpmässig middag med [[ingredient_count]] ingredienser. Fördefinierad mat: [[include_predefined_food]], Fördefinierad nonsens: [[include_predefined_nonsense]], Fördefinierade toalettord: [[include_predefined_toilet_words]], Egna matvaror: [[include_own_food]], Egna nonsensord: [[include_own_nonsense]], Egna toalettord: [[include_own_toilet_words]]. Är toalettord tillåtna: [[allow_toilet_words]]. Är ingredienser tillåtna flera gånger: [[allow_ingredient_multiple_times]]",
+          "da": "Opret en tilfældig middag med [[ingredient_count]] ingredienser. Foruddefinerede fødevarer: [[include_predefined_food]], Foruddefineret nonsens: [[include_predefined_nonsense]], Foruddefinerede toiletord: [[include_predefined_toilet_words]], Egen mad: [[include_own_food]], Egen nonsens: [[include_own_nonsense]], Egne toiletord: [[include_own_toilet_words]]. Er toiletord tilladt: [[allow_toilet_words]]. Er ingredienser tilladt flere gange: [[allow_ingredient_multiple_times]]",
+          "de": "Erstelle ein zufälliges Abendessen mit [[ingredient_count]] Zutaten. Vorgedefinierte Lebensmittel: [[include_predefined_food]], Vorgedefinierter Unsinn: [[include_predefined_nonsense]], Vorgedefinierte Toilettenwörter: [[include_predefined_toilet_words]], Eigene Lebensmittel: [[include_own_food]], Eigener Unsinn: [[include_own_nonsense]], Eigene Toilettenwörter: [[include_own_toilet_words]]. Sind Toilettenwörter erlaubt: [[allow_toilet_words]]. Sind Zutaten mehrmals erlaubt: [[allow_ingredient_multiple_times]]",
+          "es": "Crea una cena aleatoria con [[ingredient_count]] ingredientes. Comidas predefinidas: [[include_predefined_food]], Nonsense predefinido: [[include_predefined_nonsense]], Palabras de baño predefinidas: [[include_predefined_toilet_words]], Comida personalizada: [[include_own_food]], Nonsense personalizado: [[include_own_nonsense]], Palabras de baño personalizadas: [[include_own_toilet_words]]. ¿Se permiten palabras de baño?: [[allow_toilet_words]]. ¿Se permiten los ingredientes múltiples veces?: [[allow_ingredient_multiple_times]]",
+          "fr": "Créez un dîner aléatoire avec [[ingredient_count]] ingrédients. Aliments prédéfinis : [[include_predefined_food]], Nonsense prédéfini : [[include_predefined_nonsense]], Mots de toilette prédéfinis : [[include_predefined_toilet_words]], Aliments personnalisés : [[include_own_food]], Nonsense personnalisé : [[include_own_nonsense]], Mots de toilette personnalisés : [[include_own_toilet_words]]. Les mots de toilette sont-ils autorisés : [[allow_toilet_words]]. Les ingrédients peuvent-ils être utilisés plusieurs fois : [[allow_ingredient_multiple_times]]",
+          "it": "Crea una cena casuale con [[ingredient_count]] ingredienti. Cibi predefiniti: [[include_predefined_food]], Nonsense predefinito: [[include_predefined_nonsense]], Parole da bagno predefinite: [[include_predefined_toilet_words]], Cibo personalizzato: [[include_own_food]], Nonsense personalizzato: [[include_own_nonsense]], Parole da bagno personalizzate: [[include_own_toilet_words]]. Sono permesse le parole da bagno: [[allow_toilet_words]]. Gli ingredienti possono essere usati più volte: [[allow_ingredient_multiple_times]]",
+          "nl": "Maak een willekeurig diner met [[ingredient_count]] ingrediënten. Voorgedefinieerd voedsel: [[include_predefined_food]], Voorgedefinieerde onzin: [[include_predefined_nonsense]], Voorgedefinieerde toiletwoorden: [[include_predefined_toilet_words]], Aangepast voedsel: [[include_own_food]], Aangepaste onzin: [[include_own_nonsense]], Aangepaste toiletwoorden: [[include_own_toilet_words]]. Zijn toiletwoorden toegestaan: [[allow_toilet_words]]. Zijn ingrediënten meerdere keren toegestaan: [[allow_ingredient_multiple_times]]",
+          "pl": "Stwórz losową kolację z [[ingredient_count]] składnikami. Predefiniowane jedzenie: [[include_predefined_food]], Predefiniowany nonsens: [[include_predefined_nonsense]], Predefiniowane słowa związane z toaletą: [[include_predefined_toilet_words]], Własne jedzenie: [[include_own_food]], Własny nonsens: [[include_own_nonsense]], Własne słowa związane z toaletą: [[include_own_toilet_words]]. Czy słowa związane z toaletą są dozwolone: [[allow_toilet_words]]. Czy składniki mogą być używane wielokrotnie: [[allow_ingredient_multiple_times]]"
         },
         "hint": {
           "en": "Create a random dinner",
-          "no": "Lag en tilfeldig middag"
+          "no": "Lag en tilfeldig middag",
+          "sv": "Skapa slumpmiddag",
+          "da": "Opret tilfældig middag",
+          "de": "Zufälliges Abendessen erstellen",
+          "es": "Crear cena aleatoria",
+          "fr": "Créer un dîner aléatoire",
+          "it": "Crea cena casuale",
+          "nl": "Maak willekeurig diner",
+          "pl": "Utwórz losową kolację"
         },
         "args": [
           {
@@ -47,9 +148,18 @@
             "max": 20,
             "step": 1,
             "value": 8,
+            "labelDecimals": 0,
             "title": {
               "en": " ingredients",
-              "no": " ingredienser"
+              "no": " ingredienser",
+              "sv": " ingredienser",
+              "da": " ingredienser",
+              "de": " Zutaten",
+              "es": " ingredientes",
+              "fr": " ingrédients",
+              "it": " ingredienti",
+              "nl": " ingrediënten",
+              "pl": " składniki"
             }
           },
           {
@@ -58,7 +168,15 @@
             "value": true,
             "title": {
               "en": "Include predefined food?",
-              "no": "Inkluder forhåndsdefinert mat?"
+              "no": "Inkluder forhåndsdefinert mat?",
+              "sv": "Inkludera fördefinierad mat?",
+              "da": "Inkluderer foruddefineret mad?",
+              "de": "Vordefinierte Lebensmittel einbeziehen?",
+              "es": "¿Incluir comida predefinida?",
+              "fr": "Inclure la nourriture prédéfinie ?",
+              "it": "Includere cibo predefinito?",
+              "nl": "Vooraf gedefinieerd voedsel opnemen?",
+              "pl": "Uwzględnić wstępnie zdefiniowane jedzenie?"
             }
           },
           {
@@ -67,7 +185,15 @@
             "value": true,
             "title": {
               "en": "Include predefined nonsense?",
-              "no": "Inkluder forhåndsdefinert tullball?"
+              "no": "Inkluder forhåndsdefinert tullball?",
+              "sv": "Inkludera fördefinierat nonsens?",
+              "da": "Inkluderer foruddefineret vrøvl?",
+              "de": "Vordefinierten Unsinn einbeziehen?",
+              "es": "¿Incluir tonterías predefinidas?",
+              "fr": "Inclure le non-sens prédéfini ?",
+              "it": "Includere assurdità predefinite?",
+              "nl": "Vooraf gedefinieerde onzin opnemen?",
+              "pl": "Uwzględnić wstępnie zdefiniowane bzdury?"
             }
           },
           {
@@ -76,7 +202,15 @@
             "value": true,
             "title": {
               "en": "Include predefined toilet words?",
-              "no": "Inkluder forhåndsdefinerte toalettord?"
+              "no": "Inkluder forhåndsdefinerte toalettord?",
+              "sv": "Inkludera fördefinierade toalettord?",
+              "da": "Inkluderer foruddefinerede toiletord?",
+              "de": "Vordefinierte Toilettenwörter einbeziehen?",
+              "es": "¿Incluir palabras de baño predefinidas?",
+              "fr": "Inclure les mots de toilettes prédéfinis ?",
+              "it": "Includere parole di bagno predefinite?",
+              "nl": "Vooraf gedefinieerde toiletwoorden opnemen?",
+              "pl": "Uwzględnić wstępnie zdefiniowane słowa toaletowe?"
             }
           },
           {
@@ -85,7 +219,15 @@
             "value": true,
             "title": {
               "en": "Include own food?",
-              "no": "Inkluder egendefinert mat?"
+              "no": "Inkluder egendefinert mat?",
+              "sv": "Inkludera egen mat?",
+              "da": "Inkluderer egen mad?",
+              "de": "Eigene Lebensmittel einbeziehen?",
+              "es": "¿Incluir comida propia?",
+              "fr": "Inclure votre propre nourriture ?",
+              "it": "Includere cibo proprio?",
+              "nl": "Eigen voedsel opnemen?",
+              "pl": "Uwzględnić własne jedzenie?"
             }
           },
           {
@@ -94,7 +236,15 @@
             "value": true,
             "title": {
               "en": "Include own nonsense?",
-              "no": "Inkluder egendefinert tullball?"
+              "no": "Inkluder egendefinert tullball?",
+              "sv": "Inkludera eget nonsens?",
+              "da": "Inkluderer eget vrøvl?",
+              "de": "Eigenen Unsinn einbeziehen?",
+              "es": "¿Incluir tonterías propias?",
+              "fr": "Inclure votre propre non-sens ?",
+              "it": "Includere assurdità proprie?",
+              "nl": "Eigen onzin opnemen?",
+              "pl": "Uwzględnić własne bzdury?"
             }
           },
           {
@@ -103,7 +253,15 @@
             "value": true,
             "title": {
               "en": "Include own toilet words?",
-              "no": "Inkluder egendefinerte toalettord?"
+              "no": "Inkluder egendefinerte toalettord?",
+              "sv": "Inkludera egna toalettord?",
+              "da": "Inkluderer egne toiletord?",
+              "de": "Eigene Toilettenwörter einbeziehen?",
+              "es": "¿Incluir palabras de baño propias?",
+              "fr": "Inclure vos propres mots de toilettes ?",
+              "it": "Includere parole di bagno proprie?",
+              "nl": "Eigen toiletwoorden opnemen?",
+              "pl": "Uwzględnić własne słowa toaletowe?"
             }
           },
           {
@@ -112,7 +270,15 @@
             "value": true,
             "title": {
               "en": "Alow toilet words?",
-              "no": "Tillat doprat?"
+              "no": "Tillat doprat?",
+              "sv": "Tillåt toalettord?",
+              "da": "Tillad toiletord?",
+              "de": "Toilettenwörter erlauben?",
+              "es": "¿Permitir palabras de baño?",
+              "fr": "Autoriser les mots de toilettes ?",
+              "it": "Permettere parole di bagno?",
+              "nl": "Toiletwoorden toestaan?",
+              "pl": "Zezwolić na słowa toaletowe?"
             }
           },
           {
@@ -121,7 +287,15 @@
             "value": true,
             "title": {
               "en": "Allow ingredients multiple times?",
-              "no": "Tillat ingredienser flere ganger?"
+              "no": "Tillat ingredienser flere ganger?",
+              "sv": "Tillåt ingredienser flera gånger?",
+              "da": "Tillad ingredienser flere gange?",
+              "de": "Zutaten mehrmals erlauben?",
+              "es": "¿Permitir ingredientes múltiples veces?",
+              "fr": "Autoriser les ingrédients plusieurs fois ?",
+              "it": "Permettere ingredienti più volte?",
+              "nl": "Ingrediënten meerdere keren toestaan?",
+              "pl": "Zezwolić na wielokrotne użycie składników?"
             }
           }
         ]

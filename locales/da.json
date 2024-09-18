@@ -1,0 +1,27 @@
+{
+  "settings": {
+    "title": "Tilfældig middag",
+    "predefined": {
+      "title": "Foruddefinerede ord (ikke redigerbar)",
+      "food": "Foruddefineret mad",
+      "nonsense": "Foruddefineret vrøvl",
+      "toiletwords": "Foruddefinerede toiletord",
+      "cookingmethods": "Foruddefinerede tilberedningsmetoder"
+    },
+    "own": {
+      "title": "Egne ord",
+      "food": "Egen mad",
+      "nonsense": "Eget vrøvl",
+      "toiletwords": "Egne toiletord"
+    },
+    "save": "Gem",
+    "saved_alert": "Gemt"
+  },
+  "flowTokens": {
+    "random_dinner": "Tilfældig middag"
+  },
+  "dinner": {
+    "dinner_split": "med",
+    "dinner_cooking_split": "ved siden af"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "settings": {
+    "title": "Cena aleatoria",
+    "predefined": {
+      "title": "Palabras predefinidas (no editables)",
+      "food": "Comida predefinida",
+      "nonsense": "Tonterías predefinidas",
+      "toiletwords": "Palabras de baño predefinidas",
+      "cookingmethods": "Métodos de cocción predefinidos"
+    },
+    "own": {
+      "title": "Palabras personalizadas",
+      "food": "Comida personalizada",
+      "nonsense": "Tonterías personalizadas",
+      "toiletwords": "Palabras de baño personalizadas"
+    },
+    "save": "Guardar",
+    "saved_alert": "Guardado"
+  },
+  "flowTokens": {
+    "random_dinner": "Cena aleatoria"
+  },
+  "dinner": {
+    "dinner_split": "con",
+    "dinner_cooking_split": "al lado de"
+  }
+}

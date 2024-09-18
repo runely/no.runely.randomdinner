@@ -1,13 +1,21 @@
 {
     "settings": {
         "title": "Random dinner",
-        "save": "Save",
-        "saved_alert": "Saved",
+        "predefined": {
+            "title": "Predefined words (not editable)",
+            "food": "Predefined food",
+            "nonsense": "Predefined nonsense",
+            "toiletwords": "Predefined toilet words",
+            "cookingmethods": "Predefined cooking methods"
+        },
         "own": {
+            "title": "Custom words",
             "food": "Custom food",
             "nonsense": "Custom nonsense",
             "toiletwords": "Custom toilet words"
-        }
+        },
+        "save": "Save",
+        "saved_alert": "Saved"
     },
     "flowTokens": {
         "random_dinner": "Random dinner"

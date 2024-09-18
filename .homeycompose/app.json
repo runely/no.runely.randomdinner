@@ -6,13 +6,30 @@
   "platforms": [
     "local"
   ],
+  "brandColor": "#FF6F61",
   "name": {
     "en": "Random dinner",
-    "no": "Tilfeldig middag"
+    "no": "Tilfeldig middag",
+    "sv": "Slumpmiddag",
+    "da": "Tilfældig middag",
+    "de": "Zufälliges Abendessen",
+    "es": "Cena aleatoria",
+    "fr": "Dîner aléatoire",
+    "it": "Cena casuale",
+    "nl": "Willekeurig diner",
+    "pl": "Losowa kolacja"
   },
   "description": {
-    "en": "Get todays random dinner",
-    "no": "Få dagens tilfeldige middag"
+    "en": "Give Homey the chance to be funny by creating random nonsense dinners",
+    "no": "Gi Homey muligheten til å være morsom ved å lage tilfeldige tullball middager",
+    "sv": "Ge Homey chansen att vara rolig genom att skapa slumpmässiga nonsensmiddagar",
+    "da": "Giv Homey muligheden for at være sjov ved at lave tilfældige vrøvlemiddage",
+    "de": "Gib Homey die Chance, lustig zu sein, indem du zufällige Unsinn-Abendessen erstellst",
+    "es": "Dale a Homey la oportunidad de ser divertido creando cenas aleatorias de tonterías",
+    "fr": "Donnez à Homey la possibilité d'être drôle en créant des dîners aléatoires de nonsens",
+    "it": "Dai a Homey l'opportunità di essere divertente creando cene casuali di assurdità",
+    "nl": "Geef Homey de kans om grappig te zijn door willekeurige onzin-diners te maken",
+    "pl": "Daj Homey możliwość bycia zabawnym, tworząc losowe nonsensowe kolacje"
   },
   "category": [
     "tools"
@@ -25,5 +42,61 @@
   "author": {
     "name": "Rune Moskvil Lyngås",
     "email": "runely85@gmail.com"
-  }
+  },
+  "tags": {
+    "en": [
+      "fun",
+      "dinner",
+      "random"
+    ],
+    "no": [
+      "morsom",
+      "middag",
+      "tilfeldig"
+    ],
+    "sv": [
+      "rolig",
+      "middag",
+      "slump"
+    ],
+    "da": [
+      "sjov",
+      "middag",
+      "tilfældig"
+    ],
+    "de": [
+      "Spaß",
+      "Abendessen",
+      "zufällig"
+    ],
+    "es": [
+      "divertido",
+      "cena",
+      "aleatorio"
+    ],
+    "fr": [
+      "amusant",
+      "dîner",
+      "aléatoire"
+    ],
+    "it": [
+      "divertente",
+      "cena",
+      "casuale"
+    ],
+    "nl": [
+      "leuk",
+      "diner",
+      "willekeurig"
+    ],
+    "pl": [
+      "zabawa",
+      "kolacja",
+      "losowy"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/runely/no.runely.randomdinner/issues"
+  },
+  "source": "https://github.com/runely/no.runely.randomdinner"
 }

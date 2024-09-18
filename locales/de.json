@@ -1,0 +1,27 @@
+{
+  "settings": {
+    "title": "Zufälliges Abendessen",
+    "predefined": {
+      "title": "Vordefinierte Wörter (nicht bearbeitbar)",
+      "food": "Vordefinierte Lebensmittel",
+      "nonsense": "Vordefinierter Unsinn",
+      "toiletwords": "Vordefinierte Toilettenwörter",
+      "cookingmethods": "Vordefinierte Kochmethoden"
+    },
+    "own": {
+      "title": "Eigene Wörter",
+      "food": "Eigene Lebensmittel",
+      "nonsense": "Eigener Unsinn",
+      "toiletwords": "Eigene Toilettenwörter"
+    },
+    "save": "Speichern",
+    "saved_alert": "Gespeichert"
+  },
+  "flowTokens": {
+    "random_dinner": "Zufälliges Abendessen"
+  },
+  "dinner": {
+    "dinner_split": "mit",
+    "dinner_cooking_split": "neben"
+  }
+}

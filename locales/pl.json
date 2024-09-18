@@ -1,0 +1,27 @@
+{
+  "settings": {
+    "title": "Losowa kolacja",
+    "predefined": {
+      "title": "Wstępnie zdefiniowane słowa (nie do edycji)",
+      "food": "Wstępnie zdefiniowane jedzenie",
+      "nonsense": "Wstępnie zdefiniowane bzdury",
+      "toiletwords": "Wstępnie zdefiniowane słowa toaletowe",
+      "cookingmethods": "Wstępnie zdefiniowane metody gotowania"
+    },
+    "own": {
+      "title": "Własne słowa",
+      "food": "Własne jedzenie",
+      "nonsense": "Własne bzdury",
+      "toiletwords": "Własne słowa toaletowe"
+    },
+    "save": "Zapisz",
+    "saved_alert": "Zapisano"
+  },
+  "flowTokens": {
+    "random_dinner": "Losowa kolacja"
+  },
+  "dinner": {
+    "dinner_split": "z",
+    "dinner_cooking_split": "obok"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "settings": {
+    "title": "Slumpmiddag",
+    "predefined": {
+      "title": "Fördefinierade ord (kan ej redigeras)",
+      "food": "Fördefinierad mat",
+      "nonsense": "Fördefinierat nonsens",
+      "toiletwords": "Fördefinierade toalettord",
+      "cookingmethods": "Fördefinierade tillagningsmetoder"
+    },
+    "own": {
+      "title": "Egna ord",
+      "food": "Egen mat",
+      "nonsense": "Eget nonsens",
+      "toiletwords": "Egna toalettord"
+    },
+    "save": "Spara",
+    "saved_alert": "Sparat"
+  },
+  "flowTokens": {
+    "random_dinner": "Slumpmiddag"
+  },
+  "dinner": {
+    "dinner_split": "med",
+    "dinner_cooking_split": "bredvid"
+  }
+}

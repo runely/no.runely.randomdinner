@@ -1,13 +1,21 @@
 {
     "settings": {
         "title": "Tilfeldig middag",
-        "save": "Lagre",
-        "saved_alert": "Lagret",
+        "predefined": {
+            "title": "Forhåndsdefinerte ord (ikke redigerbare)",
+            "food": "Forhåndsdefinert mat",
+            "nonsense": "Forhåndsdefinert tullball",
+            "toiletwords": "Forhåndsdefinerte toalettord",
+            "cookingmethods": "Forhåndsdefinert tilberedningsmetoder"
+        },
         "own": {
+            "title": "Egendefinerte ord",
             "food": "Egendefinert mat",
             "nonsense": "Egendefinert tullball",
             "toiletwords": "Egendefinerte toalettord"
-        }
+        },
+        "save": "Lagre",
+        "saved_alert": "Lagret"
     },
     "flowTokens": {
         "random_dinner": "Tilfeldig middag"

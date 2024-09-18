@@ -1,0 +1,27 @@
+{
+  "settings": {
+    "title": "Cena casuale",
+    "predefined": {
+      "title": "Parole predefinite (non modificabili)",
+      "food": "Cibo predefinito",
+      "nonsense": "Assurdità predefinite",
+      "toiletwords": "Parole di bagno predefinite",
+      "cookingmethods": "Metodi di cottura predefiniti"
+    },
+    "own": {
+      "title": "Parole personalizzate",
+      "food": "Cibo personalizzato",
+      "nonsense": "Assurdità personalizzate",
+      "toiletwords": "Parole di bagno personalizzate"
+    },
+    "save": "Salva",
+    "saved_alert": "Salvato"
+  },
+  "flowTokens": {
+    "random_dinner": "Cena casuale"
+  },
+  "dinner": {
+    "dinner_split": "con",
+    "dinner_cooking_split": "accanto a"
+  }
+}

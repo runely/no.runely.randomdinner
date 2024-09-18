@@ -1,0 +1,27 @@
+{
+  "settings": {
+    "title": "Willekeurig diner",
+    "predefined": {
+      "title": "Vooraf gedefinieerde woorden (niet bewerkbaar)",
+      "food": "Vooraf gedefinieerd voedsel",
+      "nonsense": "Vooraf gedefinieerde onzin",
+      "toiletwords": "Vooraf gedefinieerde toiletwoorden",
+      "cookingmethods": "Vooraf gedefinieerde kookmethoden"
+    },
+    "own": {
+      "title": "Eigen woorden",
+      "food": "Eigen voedsel",
+      "nonsense": "Eigen onzin",
+      "toiletwords": "Eigen toiletwoorden"
+    },
+    "save": "Opslaan",
+    "saved_alert": "Opgeslagen"
+  },
+  "flowTokens": {
+    "random_dinner": "Willekeurig diner"
+  },
+  "dinner": {
+    "dinner_split": "met",
+    "dinner_cooking_split": "naast"
+  }
+}
