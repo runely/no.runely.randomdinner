@@ -10,7 +10,8 @@
     "test": "standard",
     "fix": "standard --fix",
     "homey-run": "npm run test && homey app run",
-    "homey-install": "npm run test && homey app install"
+    "homey-install": "npm run test && homey app install",
+    "homey-publish": "npm run fix && homey app publish"
   },
   "standard": {
     "ignore": [
