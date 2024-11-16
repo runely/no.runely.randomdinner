@@ -1,6 +1,7 @@
-Giv Homey muligheden for at være sjov ved at lave tilfældige vrøvlemiddage
+Hav det sjovt med dine børn ved at lave nogle tilfældige middage.
+Kombinér dette med en tekst-til-tale app, og lad alle have det sjovt :)
 
-Forvent ikke at få en middag, som du kan tilberede eller spise ;)
+Forvent ikke at få en middag, som du rent faktisk kan lave eller spise. Dette er kun for sjov ;)
 
 Tilføj dine egne ord
 

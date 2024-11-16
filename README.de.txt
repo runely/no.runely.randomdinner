@@ -1,6 +1,7 @@
-Gib Homey die Chance, lustig zu sein, indem du zufällige Unsinn-Abendessen erstellst
+Hab Spaß mit deinen Kindern, indem ihr ein paar zufällige Abendessen kreiert.
+Kombiniert das mit einer Text-zu-Sprache App und lasst alle Spaß haben :)
 
-Erwarte nicht, ein Abendessen zu bekommen, das du kochen oder essen kannst ;)
+Erwarte nicht, dass es ein Abendessen wird, das du kochen oder essen kannst. Das ist nur zum Spaß ;)
 
 Füge deine eigenen Wörter hinzu
 

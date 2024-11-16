@@ -1,6 +1,7 @@
-Geef Homey de kans om grappig te zijn door willekeurige onzin-diners te maken
+Maak plezier met je kinderen door willekeurige diners te bedenken.
+Combineer dit met een tekst-naar-spraak app en laat iedereen plezier hebben :)
 
-Verwacht niet een diner te krijgen dat je kunt koken of eten ;)
+Verwacht geen diner dat je kunt koken of eten. Dit is puur voor de lol ;)
 
 Voeg je eigen woorden toe
 

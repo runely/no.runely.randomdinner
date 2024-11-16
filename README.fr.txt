@@ -1,6 +1,7 @@
-Donnez à Homey la possibilité d'être drôle en créant des dîners aléatoires de nonsens
+Amusez-vous avec vos enfants en créant des dîners aléatoires.
+Combinez cela avec une application de synthèse vocale et laissez tout le monde s’amuser :)
 
-Ne vous attendez pas à recevoir un dîner que vous pouvez cuisiner ou manger ;)
+Ne vous attendez pas à un dîner que vous pourrez cuisiner ou manger. C’est purement pour le plaisir ;)
 
 Ajoutez vos propres mots
 

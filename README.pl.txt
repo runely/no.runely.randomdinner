@@ -1,6 +1,7 @@
-Daj Homey możliwość bycia zabawnym, tworząc losowe nonsensowe kolacje
+Baw się dobrze z dziećmi, tworząc losowe kolacje.
+Połącz to z aplikacją do zamiany tekstu na mowę i pozwól wszystkim się bawić :)
 
-Nie spodziewaj się otrzymać kolacji, którą możesz ugotować lub zjeść ;)
+Nie spodziewaj się kolacji, którą można ugotować lub zjeść. To jest tylko dla zabawy ;)
 
 Dodaj swoje własne słowa
 

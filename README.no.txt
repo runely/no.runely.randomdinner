@@ -1,6 +1,7 @@
-Gi Homey muligheten til å være morsom ved å lage tilfeldige tullball middager
+Ha det gøy med barna dine ved å lage noen tilfeldige middager.
+Kombiner dette med en tekst-til-tale app, og la alle ha det gøy :)
 
-Ikke forvent å få en middag som du kan lage eller spise ;)
+Ikke forvent å få en middag som du faktisk kan lage eller spise. Dette er kun for moro ;)
 
 Legg til dine egne ord
 

@@ -1,6 +1,7 @@
-Dale a Homey la oportunidad de ser divertido creando cenas aleatorias de tonterías
+Diviértete con tus hijos creando cenas al azar.
+Combina esto con una aplicación de texto a voz y deja que todos se diviertan :)
 
-No esperes recibir una cena que puedas cocinar o comer ;)
+No esperes obtener una cena que puedas cocinar o comer. Esto es solo por diversión ;)
 
 Añade tus propias palabras
 

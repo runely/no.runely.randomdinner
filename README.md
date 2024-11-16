@@ -19,5 +19,7 @@ Don't expect to get a dinner that you can cook or eat ;)
 
 ## Changelog
 
+- 1.0.1
+  - Fixed README.*.txt and assets to get the app certified
 - 1.0.0
   - Initial release

@@ -1,6 +1,7 @@
-Give Homey the chance to be funny by creating random nonsense dinners
+Have some fun with your kids by creating some random dinners.
+Combine this with a text-to-speach app and let everyone have some fun :)
 
-Don't expect to get a dinner that you can cook or eat ;)
+Don't expect to get a dinner that you can cook or eat. This is purely for fun ;)
 
 Add your own words
 

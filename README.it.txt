@@ -1,6 +1,7 @@
-Dai a Homey l'opportunità di essere divertente creando cene casuali di assurdità
+Divertiti con i tuoi bambini creando delle cene casuali.
+Combina il tutto con un'app di sintesi vocale e lascia che tutti si divertano :)
 
-Non aspettarti di ricevere una cena che puoi cucinare o mangiare ;)
+Non aspettarti una cena che puoi cucinare o mangiare. È solo per divertimento ;)
 
 Aggiungi le tue parole
 

@@ -1,6 +1,7 @@
-Ge Homey chansen att vara rolig genom att skapa slumpmässiga nonsensmiddagar
+Ha kul med dina barn genom att skapa några slumpmässiga middagar.
+Kombinera detta med en text-till-tal app och låt alla ha roligt :)
 
-Förvänta dig inte att få en middag som du kan laga eller äta ;)
+Förvänta dig inte en middag som du kan laga eller äta. Det här är bara på skoj ;)
 
 Lägg till dina egna ord
 
