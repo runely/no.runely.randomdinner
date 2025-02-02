@@ -5,7 +5,7 @@ Ikke forvent å få en middag som du faktisk kan lage eller spise. Dette er kun 
 
 Legg til dine egne ord
 
-- Åpne innstillinger (konfigurer appen)
+- Åpne innstillinger (konfigurer app'en)
   - Rull ned til 'Egendefinerte ord'
   - Fyll inn ordene i de seksjonene du ønsker
 

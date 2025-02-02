@@ -51,7 +51,7 @@ function onHomeyReady (Homey) {
   })
 
   // save settings
-  saveElement.addEventListener('click', function (e) {
+  saveElement.addEventListener('click', function (_) {
     Homey.set(ownFood, doSave(ownFood), function (err) {
       if (err) return Homey.alert(err)
     })

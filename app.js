@@ -51,11 +51,12 @@ class MyApp extends Homey.App {
     }
 
     // Flow tokens
-    tokens.push(await this.homey.flow.createToken('random_dinner', { type: 'string', title: this.homey.__('flowTokens.random_dinner') }))
+    tokens.push(await this.homey.flow.createToken('random_dinner',
+      { type: 'string', title: this.homey.__('flowTokens.random_dinner'), value: null }))
 
     // Actions
     this.homey.flow.getActionCard('create_random_dinner')
-      .registerRunListener(async (args, state) => {
+      .registerRunListener(async (args, _) => {
         const ingredientCount = args.ingredient_count
         const allowToiletWords = args.allow_toilet_words
 
@@ -64,13 +65,13 @@ class MyApp extends Homey.App {
         const includePredefinedToiletWords = args.include_predefined_toilet_words && allowToiletWords
 
         const includeOwnFood = args.include_own_food
-        const includeOwnNonsene = args.include_own_nonsense
+        const includeOwnNonsense = args.include_own_nonsense
         const includeOwnToiletWords = args.include_own_toilet_words && allowToiletWords
 
         const allowIngredientMultipleTimes = args.allow_ingredient_multiple_times
 
         const ownFood = includeOwnFood ? lowerAll(removeEmpty(this.homey.settings.get('ownFood'))) : []
-        const ownNonsense = includeOwnNonsene ? lowerAll(removeEmpty(this.homey.settings.get('ownNonsense'))) : []
+        const ownNonsense = includeOwnNonsense ? lowerAll(removeEmpty(this.homey.settings.get('ownNonsense'))) : []
         const ownToiletWords = includeOwnToiletWords ? lowerAll(removeEmpty(this.homey.settings.get('ownToiletWords'))) : []
 
         if (!Array.isArray(tokens) || tokens.length !== 1) {
