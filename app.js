@@ -29,6 +29,16 @@ class MyApp extends Homey.App {
   async onInit () {
     this.log(Homey.manifest.name.en + ' v' + Homey.manifest.version + ' is running...')
 
+    if (process.env.DEBUG === '1') {
+      try {
+        require('inspector').waitForDebugger()
+        this.log('Attached inspector')
+      } catch (error) {
+        require('inspector').open(9222, '0.0.0.0', true)
+        this.log('Attached inspector:9222')
+      }
+    }
+
     const language = this.homey.i18n.getLanguage()
     const foods = getTranslation('food', language)
     const usedLanguage = foods.language
