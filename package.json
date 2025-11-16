@@ -11,7 +11,7 @@
     "fix": "standard --fix",
     "homey-run": "npm run test && homey app run",
     "homey-install": "npm run test && homey app install",
-    "homey-publish": "npm run fix && homey app publish"
+    "homey-publish": "npm run test && homey app publish"
   },
   "standard": {
     "ignore": [
