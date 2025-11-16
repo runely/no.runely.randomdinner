@@ -10,5 +10,8 @@
   },
   "1.0.3": {
     "en": "Fixed a bug where action 'Create random dinner' wouldn't generate a dinner if only 1 ingredient were present. Lint fixes"
+  },
+  "1.0.4": {
+    "en": "Dependency updates"
   }
 }
