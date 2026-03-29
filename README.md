@@ -19,6 +19,8 @@ Don't expect to get a dinner that you can cook or eat ;)
 
 ## Changelog
 
+- 1.0.5
+  - Dependency updates
 - 1.0.4
   - Dependency updates
 - 1.0.3
